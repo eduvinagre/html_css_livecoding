@@ -201,16 +201,32 @@ footer .container {
   align-items: center;
 }
 
+footer .container > * {
+  flex: 1; /* Ensure all child elements (logo, p, social-icons) take equal space */
+  text-align: center; /* Center the text in each element */
+}
+
+footer .logo {
+  text-align: left; /* Align the logo to the left */
+}
+
+footer .social-icons {
+  text-align: right;
+  flex: 0 1 auto;
+  margin-right: 0;
+}
+
 .social-icons a {
   margin-left: 20px;
   color: #172339;
   text-decoration: none;
   font-weight: bold;
+  margin-right: 0px;
 }
 
 img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 
 /* Responsive Design */
