@@ -284,4 +284,9 @@ img {
     flex-direction: column;
     gap: 20px;
   }
+  footer .social-icons {
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+  }
 }
